@@ -1,21 +1,16 @@
 {
   "name": "Confluence Plus",
   "version": "0.1",
-  "description": "Extend Confluence a bit.",
+  "description": "Extend Confluence so nice",
   "permissions": [
-    "activeTab",
-    "declarativeContent",
-    "storage"
+    "activeTab"
   ],
-  "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": false
-  },
-  "page_action": {
-    "default_popup": "popup.html"
-  },
-  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/wiki/*"],
+      "js": ["loader.js"]
+    }
+  ],
+  "web_accessible_resources": ["content-script/*"],
   "manifest_version": 2
 }
