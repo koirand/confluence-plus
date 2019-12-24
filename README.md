@@ -8,5 +8,5 @@ Chrome extention for Confluence.
 ## Feature
 
 ### Formulas
-Write formulas with LaTex command.
+Write formulas with LaTeX command.
 ![screenshot-1280x800](https://user-images.githubusercontent.com/17229643/71407276-f0be6b00-267d-11ea-98e1-e5496e3c90d0.png)
