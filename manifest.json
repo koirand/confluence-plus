@@ -1,4 +1,5 @@
 {
+  "manifest_version": 2,
   "name": "Confluence Plus",
   "version": "0.1",
   "description": "Extend Confluence so nice",
@@ -8,9 +9,15 @@
   "content_scripts": [
     {
       "matches": ["https://*.atlassian.net/wiki/*"],
-      "js": ["loader.js"]
+      "js": [
+        "content-scripts/inject.js"
+      ]
     }
   ],
-  "web_accessible_resources": ["content-script/*"],
-  "manifest_version": 2
+  "web_accessible_resources": [
+    "content-scripts/*",
+    "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js",
+    "https://www.google-analytics.com/analytics.js"
+  ],
+  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'"
 }
