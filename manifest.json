@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Confluence Plus",
   "version": "0.1",
-  "description": "Extend Confluence so nice",
+  "description": "Confluence Cloudに便利な機能を追加します",
   "permissions": [
     "activeTab"
   ],
@@ -14,6 +14,14 @@
       ]
     }
   ],
+  "page_action": {
+    "default_icon": {
+      "16": "asset/icon-16x16.png",
+      "32": "asset/icon-32x32.png",
+      "48": "asset/icon-48x48.png",
+      "128": "asset/icon-128x128.png"
+    }
+  },
   "web_accessible_resources": [
     "content-scripts/*",
     "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js",
