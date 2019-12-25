@@ -5,6 +5,9 @@ confluence-plus
 
 Chrome extention for Confluence.
 
+## Install
+- [Chrome Web Store <img valign="middle" src="https://img.shields.io/chrome-web-store/v/hkpklfaicfclffcgcbniaifabhiokikf.svg?label=%20">](https://chrome.google.com/webstore/detail/confluence-plus/hkpklfaicfclffcgcbniaifabhiokikf) 
+
 ## Feature
 
 ### Formulas
