@@ -1,0 +1,29 @@
+.ak-editor-content-area h1::before {
+  content:"# ";
+  color: #888;
+}
+
+.ak-editor-content-area h2::before {
+  content:"## ";
+  color: #888;
+}
+
+.ak-editor-content-area h3::before {
+  content:"### ";
+  color: #888;
+}
+
+.ak-editor-content-area h4::before {
+  content:"#### ";
+  color: #888;
+}
+
+.ak-editor-content-area h5::before {
+  content:"##### ";
+  color: #888;
+}
+
+.ak-editor-content-area h6::before {
+  content:"###### ";
+  color: #888;
+}
