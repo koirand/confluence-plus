@@ -12,4 +12,9 @@ Chrome extention for Confluence.
 
 ### Formulas
 Write formulas with LaTeX command.
-![screenshot-1280x800](https://user-images.githubusercontent.com/17229643/71407276-f0be6b00-267d-11ea-98e1-e5496e3c90d0.png)
+![screenshot1-1280x800](https://user-images.githubusercontent.com/17229643/71407276-f0be6b00-267d-11ea-98e1-e5496e3c90d0.png)
+
+### Improve styles
+Easy to understand header type.
+![screenshot2-1280x800](https://user-images.githubusercontent.com/17229643/72777351-bfbf5f00-3c58-11ea-86f4-a79921fcc9fd.png)
+
